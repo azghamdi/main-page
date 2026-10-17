@@ -1,0 +1,46 @@
+/* Palette copied from the supplied Q2 2026 HTML. Edit these variables to update all three publications. */
+.publication-document{--pub-brand-primary:#1B8354;--pub-brand-secondary:#74B497;--pub-brand-tint:#F3FCF6;--pub-text:#111927;--pub-text-secondary:#384250;--pub-border:#E5E7EB;--pub-surface:#F9FAFB}
+.publication-document #pdf-bulletin .pb-top .pb-hdr{color:var(--pub-brand-primary);font-weight:700;font-size:17px}
+.publication-document #pdf-bulletin h2.pb-title{background:var(--pub-brand-primary);color:#fff;text-align:center;font-size:19px;font-weight:700;margin:0;padding:7px 12px;line-height:1.5}
+.publication-document #pdf-bulletin .pb-divider{border-radius:4px;background:linear-gradient(to bottom,var(--pub-brand-tint) 0 17%,var(--pub-brand-primary) 17% 40%,var(--pub-brand-secondary) 40% 100%)}
+.publication-document #pdf-bulletin h3.pb-band--pur{background:var(--pub-brand-primary);color:#ffffff}
+.publication-document #pdf-bulletin h3.pb-band--cyan{background:var(--pub-brand-secondary);color:#111927}
+.publication-document #pdf-bulletin .pb-ref{color:var(--pub-brand-primary);font-size:12px}
+.publication-document #pdf-bulletin table.pb-kpi caption{caption-side:top;background:var(--pub-brand-primary);color:#fff;font-weight:700;padding:9px;text-align:center;font-size:13.5px}
+.publication-document #pdf-bulletin table.pb-kpi thead th{background:var(--pub-brand-secondary);color:#111927;font-weight:700;padding:6px;border:1px solid var(--pub-brand-primary);font-size:13.5px;text-align:center}
+.publication-document #pdf-bulletin table.pb-kpi td,.publication-document #pdf-bulletin table.pb-kpi tbody th{background:#f2f2f2;border:1px solid var(--pub-brand-primary);padding:10px 6px;text-align:center;font-weight:400}
+.publication-document #pdf-bulletin .pb-foot{border-top:1px solid #222;margin-top:14px;padding-top:5px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;color:var(--pub-brand-primary);font-size:var(--pb-foot, 12px)}
+.publication-document #pdf-bulletin .pb-foot a{color:var(--pub-brand-primary)}
+.publication-document #pdf-bulletin h2.pb-h2{color:var(--pub-brand-primary);font-size:21px}
+.publication-document #pdf-bulletin .pp-bar{height:4px;background:linear-gradient(to left,var(--pub-brand-primary),var(--pub-brand-secondary) 50%,var(--pub-brand-tint));margin:10px 0 14px}
+.publication-document #pdf-bulletin table.pb-kpi tbody th.pb-sub{background:var(--pub-brand-secondary)!important;color:#111927;text-align:center!important;font-weight:700}
+.publication-document #pdf-bulletin table.pb-kpi.pb-kpi--subpur tbody th.pb-sub{background:var(--pub-brand-primary)!important;color:#fff}
+.publication-document #pdf-bulletin table.pb-kpi.pb-kpi--phead thead th{background:var(--pub-brand-primary);color:#fff}
+.publication-document #pdf-bulletin table.pb-kpi.pb-kpi--chead thead th{background:var(--pub-brand-secondary);color:#111927}
+.publication-document #pdf-bulletin table.pb-kpi.pb-kpi--c thead th{background:var(--pub-brand-primary);color:#fff;border:1px solid #fff}
+.publication-document #pdf-bulletin table.pb-kpi.pb-kpi--capcyan caption{background:var(--pub-brand-secondary);color:#111927}
+.publication-document #pdf-bulletin table.pb-kpi tbody th.pb-hd,.publication-document #pdf-bulletin table.pb-kpi.pb-kpi--allslate tbody th.pb-hd{background:var(--pub-brand-primary);color:#fff;font-weight:700;text-align:center;font-size:13.5px;white-space:nowrap}
+.publication-document #pdf-bulletin{color:var(--pub-text);border-color:var(--pub-border);box-shadow:0 2px 12px #11192708;border-radius:8px}
+.publication-document #pdf-bulletin .pb-intro{background:var(--pub-surface);color:var(--pub-text-secondary)}
+.publication-document #pdf-bulletin .pb-ref,.publication-document #pdf-bulletin .pb-foot{color:var(--pub-text-secondary)}
+.publication-document #pdf-bulletin .pb-foot{border-top-color:var(--pub-border)}
+.publication-document #pdf-bulletin table.pb-kpi{border-collapse:collapse}
+.publication-document #pdf-bulletin table.pb-kpi td,.publication-document #pdf-bulletin table.pb-kpi tbody th{background:var(--pub-surface);border-color:var(--pub-border);color:var(--pub-text)}
+.publication-document #pdf-bulletin table.pb-kpi thead th{background:var(--pub-brand-tint);color:var(--pub-text);border-color:var(--pub-border)}
+.publication-document #pdf-bulletin table.pb-kpi caption{background:var(--pub-brand-primary);color:white}
+.publication-document #pdf-bulletin table.pb-kpi tbody th.pb-sub,.publication-document #pdf-bulletin table.pb-kpi tbody th.pb-hd{background:var(--pub-brand-primary)!important;color:white!important}
+.publication-document #pdf-bulletin a{color:var(--pub-brand-primary)}
+
+.publication-document #pdf-bulletin svg [fill="#464298" i]{fill:var(--pub-brand-primary)}.publication-document #pdf-bulletin svg [stroke="#464298" i]{stroke:var(--pub-brand-primary)}
+.publication-document #pdf-bulletin svg [fill="#464399" i]{fill:var(--pub-brand-primary)}.publication-document #pdf-bulletin svg [stroke="#464399" i]{stroke:var(--pub-brand-primary)}
+.publication-document #pdf-bulletin svg [fill="#00b2df" i]{fill:var(--pub-brand-secondary)}.publication-document #pdf-bulletin svg [stroke="#00b2df" i]{stroke:var(--pub-brand-secondary)}
+.publication-document #pdf-bulletin svg [fill="#09b0db" i]{fill:var(--pub-brand-secondary)}.publication-document #pdf-bulletin svg [stroke="#09b0db" i]{stroke:var(--pub-brand-secondary)}
+.publication-document #pdf-bulletin svg [fill="#69bc46" i]{fill:var(--pub-brand-tint)}.publication-document #pdf-bulletin svg [stroke="#69bc46" i]{stroke:var(--pub-brand-tint)}
+/* Link interaction and explicit heading contrast. */
+.publication-document #pdf-bulletin h3:not(.pb-band--pur){color:var(--pub-text)}
+.publication-document a{transition:color .16s ease,background-color .16s ease,border-color .16s ease,box-shadow .16s ease;text-underline-offset:4px;text-decoration-thickness:1.5px}
+.publication-document a:hover{color:var(--pub-brand-primary)!important;text-decoration:underline}
+.publication-document a:focus-visible{outline:2px solid var(--pub-brand-primary);outline-offset:4px;border-radius:3px;text-decoration:underline}
+.publication-document #pdf-bulletin .pb-foot a:hover{background:var(--pub-brand-tint);border-radius:3px}
+.publication-document :is(a.xd-btn,a.nds-btn,a.gp-btn,a.toolbar-btn):hover{background:var(--pub-brand-tint)!important;color:#166A45!important;border-color:var(--pub-brand-primary)!important;text-decoration:none;box-shadow:0 2px 5px #10463114}
+@media(prefers-reduced-motion:reduce){.publication-document a{transition:none}}
